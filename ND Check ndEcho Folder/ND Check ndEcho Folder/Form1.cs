@@ -25,16 +25,17 @@ namespace ND_Check_ndEcho_Folder
             String ndEchoFolder = (String)ndKey.GetValue("EchoingFolderPath");
             txtndEchoPath.Text = ndEchoFolder;
             // Now lets attempt to connect to ND
-        private String authorizationCode = "";
-        private String baseLoginUrl = "https://au.netdocuments.com/neWeb2/OAuth.aspx"; //https://au.netdocuments.com/neWeb2/mobile/login.aspx?ie7warn=N
-        private String baseApiUrl = "https://api.au.netdocuments.com"; //https://api.eu.netdocuments.com
-        private String clientID = "AP-HE7KWGHN"; // insert your own client ID here
-        private String clientSecret = "fM5kFT3OoQ4cefrbnx6Y9hZ0Ga81BZ63MgpqpTVdB9lC8U9M"; // insert your own client secret here
-        private String scope = "full";
-        private String responseType = "code";
-        private String redirectURI = "https://localhost/"; // insert your own redirectURI here.  Note that this sample will not work with some redirect URIs as it is written.
-        private String accessToken = "";
-        private String refreshToken = "";
+         String authorizationCode = "";
+         String baseLoginUrl = "https://au.netdocuments.com/neWeb2/OAuth.aspx"; 
+         String baseApiUrl = "https://api.au.netdocuments.com"; 
+         String clientID = "AP-HE7KWGHN"; // insert your own client ID here
+         String clientSecret = "fM5kFT3OoQ4cefrbnx6Y9hZ0Ga81BZ63MgpqpTVdB9lC8U9M"; // insert your own client secret here
+         String scope = "full";
+         String responseType = "code";
+         String redirectURI = "https://localhost/"; // insert your own redirectURI here.  Note that this sample will not work with some redirect URIs as it is written.
+         String accessToken = "";
+         String refreshToken = "";
+
     }
 
     }
